@@ -14,9 +14,8 @@ import {
 
 function App() {
   return (<Router>
-    <div className="App">
+    <main className="main">
       <Header/>
-      <main className="main">
         <Switch>
           <Route path="/" exact>
             <Home/>
@@ -31,9 +30,8 @@ function App() {
             <ContactUs/>
           </Route>
         </Switch>
-      </main>
       <Footer/>
-    </div>
+    </main>
     </Router>
   );
 }

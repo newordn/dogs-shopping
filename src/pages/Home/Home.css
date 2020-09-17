@@ -1,0 +1,17 @@
+.img-size {
+  height: 88vh;
+}
+.services,
+.sell {
+  padding: 1rem;
+  background: url("/statics/imgs/home_background1.jpg") no-repeat center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sell {
+  padding: 1rem;
+  background: #f8f7f5;
+}

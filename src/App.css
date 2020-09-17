@@ -1,5 +1,12 @@
 .main{
     min-height: 100vh;
-    padding-top:2rem;
-    padding-bottom:2rem;
+}
+.bg-red{
+    background-color: #f9575c;
+}
+.border-none{
+    border: none;
+}
+.text-red{
+    color: #f9575c;
 }
