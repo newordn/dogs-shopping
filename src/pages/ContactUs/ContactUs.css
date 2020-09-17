@@ -1,0 +1,12 @@
+.container1{
+    width: 100%;
+    height: 80vh;
+}
+.img-style{
+    width: 400px;
+    height: 380px;
+    border-radius: 50%;
+}
+.brand{
+    color: #f9575c;
+}
