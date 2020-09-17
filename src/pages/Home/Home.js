@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Carousel, Button, Container, Row, Col, Card } from "react-bootstrap";
+import { Dog } from "../../components/Dog/Dog";
 
 export function Home() {
   return (
@@ -78,6 +79,72 @@ export function Home() {
               </Card>
             </Col>
           </Row>
+        </Container>
+      </div>
+      <div class="sell">
+        <Container>
+          <hr style={{ borderColor: "#f9575c", borderWidth: 3 }} />
+          <h1 className=" mb-5">Our best deals</h1>
+          <Row className="mb-4">
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+          </Row>
+          <Row className="mb-4">
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+          </Row>
+          <p className="text-center">
+            <Button className="bg-red border-none" size="lg">
+              See More
+            </Button>
+          </p>
+        </Container>
+      </div>
+      <div class="sell">
+        <Container>
+          <hr style={{ borderColor: "#f9575c", borderWidth: 3 }} />
+          <h1 className=" mb-5">Watching + Dental Care + Healing</h1>
+          <Row className="mb-4">
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+          </Row>
+          <Row className="mb-4">
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+            <Col md={4} className="mb-1">
+              <Dog img="/statics/imgs/article1.jpg" price="5" />
+            </Col>
+          </Row>
+          <p className="text-center">
+            <Button className="bg-red border-none" size="lg">
+              See More
+            </Button>
+          </p>
         </Container>
       </div>
     </div>
