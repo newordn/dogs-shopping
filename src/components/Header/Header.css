@@ -5,4 +5,15 @@
     align-items: center;
     background-color: #f9575c;
     padding-right: 10rem;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+.active-nav{
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
 }
