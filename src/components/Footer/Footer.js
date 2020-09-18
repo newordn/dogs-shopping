@@ -14,7 +14,7 @@ export function Footer() {
           <FontAwesomeIcon icon={faDog} size="lg" /> PET SHOP
         </h4>
       </Container>
-      <Container>
+      <Container> 
         <Row>
           <Col md="4">
             <h3 className="text-white1 font-weight-bold mb-5">About Us</h3>
