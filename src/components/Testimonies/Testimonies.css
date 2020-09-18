@@ -1,0 +1,9 @@
+.testimonies{
+  height: 50vh;
+  background-color: #f9575c;
+}
+.img-size{
+  width: 100px !important; 
+  height: 100px !important;
+  border-radius: 50%;
+}

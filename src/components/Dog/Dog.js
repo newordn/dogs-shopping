@@ -1,7 +1,8 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
-export function Dog({ price, img, description }) {
+export function Dog({ dog }) {
+  const { price, img, description } = dog;
   return (
     <Card>
       <Card.Img variant="top" src={img} />
