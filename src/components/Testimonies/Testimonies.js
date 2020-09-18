@@ -7,7 +7,7 @@ export function Testimonies({ testimonies }) {
       {testimonies.map((testimony) => (
         <Carousel.Item className="text-center">
           <p className="mb-4 text-white mt-3">
-            <img src={testimony.avatar} className=" img-size mb-2" />
+            <img src={testimony.avatar} className=" img-size1 mb-2" />
             <h3>{testimony.author}</h3>
           </p>
           <p className=" text-white">{testimony.description}</p>
