@@ -1,0 +1,12 @@
+.shop-header{
+  background: url("/statics/imgs/home_background1.jpg") no-repeat center/cover;
+  height:300px;
+  background-color: #f9575c;
+  background-blend-mode:  multiply;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-bluewhite{
+  background-color: #f8f7f5;
+}
