@@ -59,8 +59,3 @@
 .img4{
     border-radius: 7px;
 }
-.foot{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
