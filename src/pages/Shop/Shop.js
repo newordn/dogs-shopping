@@ -6,7 +6,7 @@ import { DOGS_TO_SELL, DOGS_SERVICES } from "../../consts/dogs";
 export function Shop() {
   return (
     <div>
-      <div className="shop-header text-center text-white">
+      <div className="shop-header text-center text-white" id="shop">
         <h1>SHOP GRID : PETS</h1>
       </div>
       <div className="bg-bluewhite pt-4 pb-4">
