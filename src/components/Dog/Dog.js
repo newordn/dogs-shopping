@@ -13,8 +13,8 @@ export function Dog({ dog }) {
         </Modal.Header>
         <Modal.Body>
           <Row>
-            <Col md={6}>
-              <img src={img} className="rounded" />
+            <Col md={6} className="mb-3">
+              <img src={img} className="rounded img-fluid" />
             </Col>
             <Col md={6} className="text-right">
               <input placeholder="Name" className="form-control mb-2" />
