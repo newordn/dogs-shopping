@@ -14,9 +14,9 @@ export function Footer() {
           <FontAwesomeIcon icon={faDog} size="lg" /> PET SHOP
         </h4>
       </Container>
-      <Container> 
+      <Container>
         <Row>
-          <Col md="4">
+          <Col md="4 mb-2">
             <h3 className="text-white1 font-weight-bold mb-5">About Us</h3>
             <p className="text-white1 text-left">
               Dogs shopping is a leading shop club with several branch offices and boarding centers
@@ -27,7 +27,7 @@ export function Footer() {
               someone to take care of your own dog, we can help.
             </p>
           </Col>
-          <Col md="4" className="text-center">
+          <Col md="4 mb-2" className="text-center">
             <h3 className="text-white1 font-weight-bold mb-5">Newsletter</h3>
             <p className="text-white1 mb-3">
               Keep up with our always upcoming news and updates. Enter your e-mail and subscribe to
