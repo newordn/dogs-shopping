@@ -3,6 +3,7 @@ import "./Home.css";
 import { Carousel, Button, Container, Row, Col, Card } from "react-bootstrap";
 import { Dog } from "../../components/Dog/Dog";
 import { DOGS_TO_SELL, DOGS_SERVICES } from "../../consts/dogs";
+import { HashLink as Link } from "react-router-hash-link";
 
 export function Home() {
   return (
@@ -19,9 +20,11 @@ export function Home() {
             <h1 className="mb-5">Get your best friend</h1>
             <p className="mb-3">With more than 1000 of pets in your shops</p>
             <p>
-              <Button className="bg-red border-none" size="lg">
-                Order Now
-              </Button>
+              <Link to="/shop#shop">
+                <Button className="bg-red border-none" size="lg">
+                  Order Now
+                </Button>
+              </Link>
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -32,9 +35,11 @@ export function Home() {
             <h1 className="mb-5">Best service for your Pet</h1>
             <p className="mb-3">We take care of your pet, like never before, he will thank you.</p>
             <p>
-              <Button className="bg-red border-none" size="lg">
-                Order Now
-              </Button>
+              <Link to="/shop#shop">
+                <Button className="bg-red border-none" size="lg">
+                  Order Now
+                </Button>
+              </Link>
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -51,9 +56,11 @@ export function Home() {
                   <Card.Text>
                     We have got a collection of more than 1000 pets available just for you.
                   </Card.Text>
-                  <Button className="bg-red border-none" size="lg">
-                    Shop Now
-                  </Button>
+                  <Link to="/shop#shop">
+                    <Button className="bg-red border-none" size="lg">
+                      Shop Now
+                    </Button>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -66,9 +73,11 @@ export function Home() {
                     From its quenottes to the ends of its paws, the dog needs some regular care, We
                     are taking care of it for you.
                   </Card.Text>
-                  <Button className="bg-red border-none" size="lg">
-                    Shop Now
-                  </Button>
+                  <Link to="/shop#shop">
+                    <Button className="bg-red border-none" size="lg">
+                      Shop Now
+                    </Button>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
