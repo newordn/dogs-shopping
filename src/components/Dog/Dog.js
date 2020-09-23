@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Card, Button, Modal, Row, Col } from "react-bootstrap";
 
+
 export function Dog({ dog }) {
   const { price, img, description } = dog;
   const [showModal, setShowModal] = useState(false);
